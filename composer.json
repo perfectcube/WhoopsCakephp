@@ -6,7 +6,12 @@
 	"license": "MIT",
 	"version": "1.0.0",
 	"require": {
-		"filp/whoops": "~2.0",
+		"perfectcube/whoops": "dev-whoopsieverse",
 		"composer/installers": "*"
-	}
-}
+	},
+    "repositories": [
+		{
+		    "type": "vcs",
+		    "url": "https://github.com/perfectcube/whoops"
+		}
+    ],
