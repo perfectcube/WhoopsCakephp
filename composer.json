@@ -11,7 +11,15 @@
 	},
     "repositories": [
 		{
-		    "type": "vcs",
-		    "url": "https://github.com/perfectcube/whoops"
+			"type": "package",
+			"package": {
+				"name": "perfectcube/WhoopsCakephp",
+				"version": "dev-whoopsieverse",
+				"source": {
+					"url": "https://github.com/perfectcube/WhoopsCakephp",
+					"type": "git",
+					"reference": "origin/master"
+				}
+			}
 		}
     ],
