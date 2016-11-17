@@ -13,13 +13,14 @@
 		{
 			"type": "package",
 			"package": {
-				"name": "perfectcube/whoops",
+				"name": "perfectcube/WhoopsCakephp",
 				"version": "dev-whoopsieverse",
 				"source": {
-					"url": "https://github.com/perfectcube/whoops",
+					"url": "https://github.com/perfectcube/WhoopsCakephp",
 					"type": "git",
 					"reference": "origin/master"
 				}
 			}
 		}
-    ],
+    ]
+}
