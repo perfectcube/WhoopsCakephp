@@ -1,16 +1,16 @@
 <?php
-App::import('Vendor', 'filp/whoops/src/Whoops/Run');
-App::import('Vendor', 'filp/whoops/src/Whoops/Exception/ErrorException');
-App::import('Vendor', 'filp/whoops/src/Whoops/Exception/Formatter');
-App::import('Vendor', 'filp/whoops/src/Whoops/Exception/Frame');
-App::import('Vendor', 'filp/whoops/src/Whoops/Exception/FrameCollection');
-App::import('Vendor', 'filp/whoops/src/Whoops/Exception/Inspector');
-App::import('Vendor', 'filp/whoops/src/Whoops/Handler/HandlerInterface');
-App::import('Vendor', 'filp/whoops/src/Whoops/Handler/Handler');
-App::import('Vendor', 'filp/whoops/src/Whoops/Handler/PrettyPageHandler');
-App::import('Vendor', 'filp/whoops/src/Whoops/Handler/JsonResponseHandler');
-App::import('Vendor', 'filp/whoops/src/Whoops/Util/Misc');
-App::import('Vendor', 'filp/whoops/src/Whoops/Util/TemplateHelper');
+App::import('Vendor', 'perfectcube/whoops/src/Whoops/Run');
+App::import('Vendor', 'perfectcube/whoops/src/Whoops/Exception/ErrorException');
+App::import('Vendor', 'perfectcube/whoops/src/Whoops/Exception/Formatter');
+App::import('Vendor', 'perfectcube/whoops/src/Whoops/Exception/Frame');
+App::import('Vendor', 'perfectcube/whoops/src/Whoops/Exception/FrameCollection');
+App::import('Vendor', 'perfectcube/whoops/src/Whoops/Exception/Inspector');
+App::import('Vendor', 'perfectcube/whoops/src/Whoops/Handler/HandlerInterface');
+App::import('Vendor', 'perfectcube/whoops/src/Whoops/Handler/Handler');
+App::import('Vendor', 'perfectcube/whoops/src/Whoops/Handler/PrettyPageHandler');
+App::import('Vendor', 'perfectcube/whoops/src/Whoops/Handler/JsonResponseHandler');
+App::import('Vendor', 'perfectcube/whoops/src/Whoops/Util/Misc');
+App::import('Vendor', 'perfectcube/whoops/src/Whoops/Util/TemplateHelper');
 
 /**
  * The WhoopsExceptionHandler will pass our Exception to the Whoops library.
