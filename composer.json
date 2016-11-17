@@ -1,8 +1,8 @@
 {
-	"name": "oldskool/whoops-cakephp",
+	"name": "perfectcube/whoops-cakephp",
 	"type": "cakephp-plugin",
 	"description": "Integrates the Whoops library into CakePHP",
-	"homepage": "https://github.com/oldskool/CakeWhoops",
+	"homepage": "https://github.com/perfectcube/CakeWhoops",
 	"license": "MIT",
 	"version": "1.0.0",
 	"require": {
@@ -13,10 +13,10 @@
 		{
 			"type": "package",
 			"package": {
-				"name": "perfectcube/WhoopsCakephp",
+				"name": "perfectcube/whoops",
 				"version": "dev-whoopsieverse",
 				"source": {
-					"url": "https://github.com/perfectcube/WhoopsCakephp",
+					"url": "https://github.com/perfectcube/whoops",
 					"type": "git",
 					"reference": "origin/master"
 				}
